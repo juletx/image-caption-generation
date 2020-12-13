@@ -2,11 +2,11 @@
 
 ## Authors: Oihane Cantero and Julen Etxaniz
 
-## Supervisors: Oier Lopez de Lacalle & Eneko Agirre
+## Supervisors: Oier Lopez de Lacalle amd Eneko Agirre
 
 ## Subject: Machine Learning and Neural Networks
 
-## Date: 
+## Date: 15-12-2020
 
 ## Objectives: 
 1. ### Implement from scratch a caption generation model that uses a CNN to condition a LSTM based language model.
@@ -22,4 +22,6 @@
 
 4. ### Relevant papers
 
-5. ### Useful resources
+5. ### Flickr8k dataset
+
+6. ### Jupyter Notebooks from tutorials
