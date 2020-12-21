@@ -4,6 +4,9 @@ desktop.ini
 ## Jupyter Notebook
 .ipynb_checkpoints
 
+## Numpy
+*.npy
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
