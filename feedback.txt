@@ -1,0 +1,41 @@
+Oihane Cantero and Julen Etxaniz
+
+P71: Image Caption Generation
+
+Mark: 9.5
+
+ 
+
+Positive points:
+
+•The main goal of project is achieved. The student were able to build a caption generation system. 
+
+•The problem to tackle is complex that requires relatively sophisticated approaches to deal with data of multiple modalities and large datasets. The solution required combination of pretrained deep CNNs and recurrent neural network to model images and text.  
+
+•Students explore multiple ways to combine image encoder with the text decoder.  
+
+•In addition to the baseline model, the students implement a model with attention mechanism.  
+
+•Experiments are correctly organized with train, validation and test partitions.  
+
+•The report is quite well written overall and presentation of the experiments and approach can be followed without much problems (though it can be improved, see below).  
+
+•The Notebook are well structured (but some more comments would be helpful as well). 
+
+•Students provide quantitative and qualitative results. For the quantitative part BLUE scores are used, and for the qualitative analysis the provided a few example of correct and incorrect caption generation. 
+
+ 
+
+Negative points:
+
+•The project heavily relies on two existing tutorials (acknowledged by students), one for the baseline model and the other for the attention based model. The attention based model and baseline follow quite different implementation approach: Data processing and training are done differently. While the baseline splits the training examples to predict the last token, the model with attention provides step-by-step prediction in the training step function. Both approaches are equally correct, but as project I would like to have one single approach for the baseline and attention based model. 
+
+•Report could be improved. The experimental part should be more structured, with a single main table of results where we can compare all the model at a simple glance.  
+
+•Some explanations or hypotheses of why the model with attention is not working are needed. This is a part of scientific research.  
+
+•Models without and with attention are not trained and compared on the same conditions (training hyperparameters including SGD optimizer, vocabulary size,…), which is something that difficult the analysis and comparison of the results. 
+
+•It would be nice to have more detailed description of the models (model 1, model 2 and model with attention) so we do not need to check the code in detail to understand the report.   In that sense, I missed a clear description and definition of the whole architecture, loss functions, and so on.  
+
+•Notebook could be polished with better comments and clearer coding.
